@@ -1,0 +1,339 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top:20px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    color: #000000;
+    font-size: 13px;
+    text-decoration: none;
+    margin-right: 0%;
+
+}
+
+nav a:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+.mail {
+    font-weight: bold;
+      margin-right: 0%;
+
+}
+.banner{
+   width:100%;
+}
+
+.presentacion {
+    vertical-align:top;
+    top: 110px;
+   
+}
+
+.presentacion h2{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    width: 70%
+}
+
+.presentacion img{
+    width: 15%;
+    float: right;
+    box-sizing: border-box;
+    border: 3px solid darksalmon;    
+}
+
+.primerresumen{
+    padding-top: 30px;
+}
+
+.redes{
+    padding-top: 30px;
+    font-size: small;
+    font-weight: bold;
+}
+
+.red:before{
+    content:"➚";
+    padding-right: 5px;
+}
+
+#principal{
+    padding: 3em 0;
+    background: gainsboro;
+    margin: 0 auto;
+}
+
+.titulo-principal{
+    text-align: left;
+    font-size: 2em;
+    margin-left: 130px;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.texto-sobreMi{
+    margin: 10px 110px;
+    text-align: justify;
+}
+
+
+#caracteristicas{
+    width: 940px;
+    background: #fefefe;
+    margin: auto;   
+}
+
+.skills-hobbies{
+    width: 940px;
+    margin: 0 auto;
+    padding: 30px;
+    display: inline-block;
+    position:relative;
+}
+
+.titulo-caracteristicas{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    padding-bottom:30px;    
+}
+
+.skills-hobbies li{
+    display: inline-block;
+    text-align:left;
+    width: 21%;
+    margin: 0 1.5%;
+    padding: 50px 0px 4px 20px;
+    box-sizing: border-box;
+    border: 2px solid darkcyan;
+    border-radius: 10px;
+    margin-bottom: 30px;   
+}
+
+.skills-hobbies li:hover{
+    border-color:#c78c19;
+}
+
+.skills-hobbies h3{
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.logo{
+    width:15%;
+}
+
+.hobbies{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.hobbie li{
+    display: inline-block;
+    text-align:left;
+    width: 13%;
+    margin: 0 1.5%;
+    padding: 50px 0px 4px 20px;
+    box-sizing: border-box;
+    border: 2px solid darkcyan;
+    border-radius: 10px;   
+}
+
+.pasatiempo{
+    width: 35%;
+}
+
+#formacion-academica{
+    align-items: center;
+    padding: 30px;
+    display: inline-block;
+    position:static;
+    background: gainsboro;
+}
+
+.estudios{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+#formacion-academica li{
+    display: inline-block;
+    text-align:center;
+    width:30%;
+    margin: 0 1.5%;
+    padding:10px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    background: white;
+}
+
+.univ{
+    width: 50%;
+}
+
+.siglo{
+    width: 40%;
+}
+
+#formacion-academica h3{
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+#formacion-academica p{
+    padding-top: 5px;
+}
+
+.titulo-experienciaProfesional{
+        text-align: center;
+        font-size: 2em;
+        font-weight: bold;
+        padding:30px 0;    
+}
+
+
+.experiencia-encriptador{
+    padding: 30px;
+    justify-content: space-around;
+}
+
+.contenido-encriptdor{
+    width: 30%;
+    display:inline-block;
+    vertical-align:top;  
+    padding: 50px 50px
+}
+
+.encriptador{
+    width: 55%;
+    margin-left: 40px;
+    display: inline-flex
+}
+
+.boton {
+    border: 0;
+    color: white;
+    font-weight: bold;
+    background-color:rgb(117, 19, 101);
+    padding: 10px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.experiencia-ahorcado{
+   padding: 30px;
+    justify-content: space-around;
+}
+
+.contenido-ahorcado{
+    width: 35%;
+    display:inline-block;
+    vertical-align: top;
+    padding: 130px 50px
+}
+
+.titulo-ahorcado{
+    font-size:large;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.challenge{
+    font-size: small;
+    font-style: italic;
+    text-align: left;
+    padding: 10px;
+}
+
+.imagen-ahorcado{
+    width:55%;
+}
+
+.contacto{
+    background-color: gainsboro;
+}
+
+#contacto-lista{
+    display:inline-block;  
+    vertical-align: top;
+    width: 50%;
+}
+
+.imagen-contacto{
+    width: 35%;
+    display: inline-flex;
+    margin-top: 100px;
+    padding: 30px;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.boton-contacto{
+    border: 0;
+    color: white;
+    font-weight: bold;
+    background-color:rgb(117, 19, 101);
+    padding:15px 165px;
+    border-radius: 5px;
+}
+#miMail{
+    opacity: 0;
+}
+footer{
+    text-align: center;
+    padding:40px;
+}
+
+.copyright{
+    color:#0f309b;
+    font-size: 13px;
+    margin:20px;
+}
+
+/*responsivo*/
+
+
+
+
+
