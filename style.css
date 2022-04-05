@@ -246,6 +246,11 @@ nav a:hover{
     text-align: left;
 }
 
+.boton:visited{
+    text-decoration: none;
+    color: white;
+}
+
 .experiencia-ahorcado{
    padding: 30px;
     justify-content: space-around;
@@ -331,7 +336,14 @@ footer{
     margin:20px;
 }
 
-/*responsivo*/
+/*errores*/
+
+.error{
+    font-size: small;
+    font-style: italic;
+    color: red;
+}
+)
 
 
 

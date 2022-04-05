@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <script src="validacion.js"></script>
     </head>
 
     <body> 
@@ -21,7 +22,7 @@
                         <li><a href="#caracteristicas">Skills</a></li>
                         <li><a href="#caracteristicas">Hobbies</a></li>
                         <li><a href="#formacion-academica">formación</a></li>
-                        <li><a href="contacto.html">proyectos</a></li>
+                        <li><a href=".lista-contacto">proyectos</a></li>
                         <li class="mail"><a href="mailto:casalvirginia@gmail.com">casalvirginina@gmail.com</a></li>
                     </ul>                            
                 </nav>
@@ -34,7 +35,7 @@
                         <li class="red"><a href="https://github.com/vickycasal">GitHub</a></li>
                         <li class="red"><a href="https://www.linkedin.com/in/virginia-casal-50407048">Linkedin</a></li>
                         <li class="red"><a href="https://www.instagram.com/vicky__casal/?hl=es-la">Instagram</a></li>
-                        <li class="red"><a href="#">Curriculum</a></li>                        
+                        <li class="red"><a href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:51799ca2-6339-38ef-8181-89afbde87461">Curriculum</a></li>                        
                     </ul>              
                     
                 </nav>
@@ -133,14 +134,14 @@
                     <ul class="contenido-encriptdor"> 
                         <li class="titulo-ahorcado"> Encriptador de texto</li>
                         <li class="challenge">Challenge Alura Codificador</li> 
-                        <li><button class="boton"><a href="https://github.com/vickycasal/primerdesafio.git">Repositorio </a></button> <button class="boton"><a src="https://vickycasal.github.io/primerdesafio/"> Ver Demo</a></li>
+                        <li><button class="boton"><a href="https://github.com/vickycasal/primerdesafio.git" style="color:white;">Repositorio </a></button> <button class="boton"><a href="https://vickycasal.github.io/primerdesafio/" style="color:white"> Ver Demo</a></li>
                     </ul>  
                 </div>
                 <div class="experiencia-ahorcado"> 
                     <ul class="contenido-ahorcado">                        
                         <li class="titulo-ahorcado" >Juego creado con HTML y JavaScript</li>
                         <li class="challenge">Challenge Oracle</li>    
-                        <li><button class="boton"><a href="https://github.com/vickycasal/challenge-oracle-hangman-esp-main"> Repositorio </a></button> <input class="boton" type="submit" value="Ver demo" id="btn-encriptar"></li> 
+                        <li><button class="boton"><a href="https://github.com/vickycasal/challenge-oracle-hangman-esp-main" style="color:white"> Repositorio</a></button> <button class="boton"><a href="https://vickycasal.github.io/challenge-oracle-hangman-esp-main/" style="color:white"> Ver demo</a></button></li> 
                     </ul><img class="imagen-ahorcado" src="imagenes/ahorcado.jpg">
                 </div>
             </section>
@@ -149,19 +150,23 @@
                 <form id="contacto-lista">
                     <label for="nombreapellido">Nombre y Apellido</label>
                     <input name="nombre" type="text" id="nombreapellido" class="input-padron" required placeholder="su nombre">
-    
+                    <span id="error1" class="error"></span>
+
                     <label for="correoelectronico">Correo Electrónico</label>
                     <input name="email" type="text" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
-    
-                    <label for="telefono">Teléfono</label>
-                    <input name="telefono" type="text" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
-    
-                    <label for="mensaje">Mensaje</label>
-                    <textarea name="mensaje" cols="70" rows="10" id="mensaje" class="input-padron" required placeholder="Escriba aqui su mensaje"></textarea>
+                    <span id="error2" class="error"></span>
 
-                    <button type="submit" class="boton-contacto">Enviar mensaje</button>
+                    <label for="asunto">Asunto</label>
+                    <input name="asunto" type="text" id="asunto" class="input-padron" required placeholder="(XX) XXXX XXXX">
+                    <span id="error3" class="error"></span>
+
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensajes" cols="70" rows="10" id="mensaje" class="input-padron" required placeholder="Escriba aqui su mensaje"></textarea>
+                    <span id="error4" class="error"></span>
+
+                    <button type="submit" class="boton-contacto" id="boton">Enviar mensaje</button>
                 </form>    
-                <a href="mailto:casalvirginia@gmail.com" id="miMail">mail</a>
+                
             </section>
         </main>
         
